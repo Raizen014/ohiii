@@ -1,0 +1,88 @@
+
+#projects {
+    height: fit-content;
+    background-color: #1f1f1f ;
+    color:white;
+
+}
+
+
+#projects .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: min-content;
+    padding: 30px 150px;
+    gap: 10px;
+
+}
+
+#portfolio {
+    display: flex ;
+    padding: 100px 150px 60px;
+    font-size: 2.2em;
+    font-family: "Raleway";
+    font-weight: 800;
+    width: auto;
+
+}
+
+#portfolio h1:hover {
+    color: rgb(15, 220, 245);
+    transition: linear 0.3s;
+}
+
+.proj {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 50px;
+}
+
+.works {
+    filter: brightness(90%);
+    border-radius: 15px;
+    width: 750px;
+    border: 2px solid transparent;
+    padding: 3px;
+
+
+}
+
+.works:hover {
+    border: 2px solid rgb(15, 220, 245);
+    transition: 0.3s;
+
+}
+
+.projbtn {
+    display: flex;
+    padding: 20px;
+    gap: 5em;
+
+}
+
+#projects .projbtn .buttons  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(240, 237, 207);
+    border-radius: 50px;
+    border: 2.5px solid rgb(15, 220, 245);
+    width: 150px;
+    height: 50px;
+    font-family: "Raleway";
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#projects .projbtn .buttons:hover{
+    background-color: rgb(15, 220, 245);
+    color: #1f1f1f;
+    transition: ease 0.2s;
+    transform: scale(1.050);
+    
+}
